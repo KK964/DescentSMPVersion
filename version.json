@@ -1,0 +1,132 @@
+{
+  "version": "1.20.1",
+  "rev": "0.0.1",
+  "mods": {
+    "required": {
+      "modrinth": [
+        {
+          "name": "Fabric API",
+          "id": "fabric-api",
+          "version": "0.85.0+1.20.1",
+          "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/hFdJG9fY/fabric-api-0.85.0%2B1.20.1.jar"
+        },
+        {
+          "name": "Status",
+          "id": "status",
+          "version": "fabric-1.20.1-1.0.2",
+          "url": "https://cdn.modrinth.com/data/b93awgkg/versions/xplyrykZ/status-1.20.1-1.0.2.jar"
+        },
+        {
+          "name": "Mod Menu",
+          "id": "modmenu",
+          "version": "7.1.0",
+          "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/zv46i3PW/modmenu-7.1.0.jar"
+        },
+        {
+          "name": "Simple Voice Chat",
+          "id": "simple-voice-chat",
+          "version": "fabric-1.20.1-2.4.14",
+          "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/1OCJWb2P/voicechat-fabric-1.20.1-2.4.14.jar",
+          "depends": ["modmenu"]
+        },
+        {
+          "name": "Carpet",
+          "id": "carpet",
+          "version": "1.4.112",
+          "url": "https://cdn.modrinth.com/data/TQTTVgYE/versions/K0Wj117C/fabric-carpet-1.20-1.4.112%2Bv230608.jar"
+        }
+      ],
+      "s3": [
+        {
+          "name": "DecentAnims",
+          "id": "decentanims",
+          "version": "0.0.1",
+          "url": "%s/1.20.1/decentanims-0.0.1.jar"
+        },
+        {
+          "name": "Female Gender Mod",
+          "id": "femalegendermod",
+          "version": "fabric-1.20.1-3.0.1",
+          "url": "%s/1.20.1/Female-Gender-Mod-fabric-1.20.1-3.0.1.jar"
+        }
+      ]
+    },
+    "optional": {
+      "modrinth": [
+        {
+          "name": "Xaero's Minimap",
+          "id": "xaeros-minimap",
+          "version": "23.5.0",
+          "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/46F7j3df/Xaeros_Minimap_23.5.0_Fabric_1.20.jar"
+        },
+        {
+          "name": "Xaero's World Map",
+          "id": "xaeros-world-map",
+          "version": "1.30.6",
+          "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/J5hmblFo/XaerosWorldMap_1.30.6_Fabric_1.20.jar"
+        },
+        {
+          "name": "Show Me Your Skin!",
+          "id": "show-me-your-skin",
+          "version": "1.6.7+1.20",
+          "url": "https://cdn.modrinth.com/data/bD7YqcA3/versions/tsYJhZKp/show-me-your-skin-1.6.7%2B1.20.jar"
+        },
+        {
+          "name": "Replay Mod",
+          "id": "replaymod",
+          "version": "1.20.1-2.6.13",
+          "url": "https://cdn.modrinth.com/data/Nv2fQJo5/versions/akFkhrL8/replaymod-1.20.1-2.6.13.jar"
+        },
+        {
+          "name": "Sodium",
+          "id": "sodium",
+          "version": "0.4.10",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/vgceLbdH/sodium-fabric-mc1.20-0.4.10%2Bbuild.27.jar"
+        },
+        {
+          "name": "Iris Shaders",
+          "id": "iris-",
+          "version": "1.20-1.6.4",
+          "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/URWeWMAt/iris-mc1.20-1.6.4.jar",
+          "depends": ["sodium"]
+        },
+        {
+          "name": "Sodium Extra",
+          "id": "sodium-extra",
+          "version": "0.4.20+mc1.20",
+          "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/kTxAMqAj/sodium-extra-0.4.20%2Bmc1.20-build.103.jar",
+          "depends": ["sodium"]
+        },
+        {
+          "name": "Reese's Sodium Options",
+          "id": "reeses-sodium-options",
+          "version": "1.5.1+mc1.20",
+          "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/SgSIhHQO/reeses_sodium_options-1.5.1%2Bmc1.20-build.74.jar",
+          "depends": ["sodium", "sodium-extra", "iris"]
+        }
+      ],
+      "curseforge": [
+        {
+          "name": "MaLiLib",
+          "id": "malilib",
+          "version": "fabric-1.20.1-0.16.1",
+          "url": "https://legacy.curseforge.com/minecraft/mc-mods/malilib/download/4623483/file"
+        },
+        {
+          "name": "MiniHUD",
+          "id": "minihud",
+          "version": "fabric-1.20.1-0.27.0",
+          "url": "https://www.curseforge.com/api/v1/mods/244260/files/4593082/download",
+          "depends": ["malilib"]
+        },
+        {
+          "name": "Item Scroller",
+          "id": "item-scroller",
+          "version": "1.20.1-0.20.0",
+          "url": "https://www.curseforge.com/api/v1/mods/242064/files/4593079/download",
+          "depends": ["malilib"]
+        }
+      ]
+    }
+  }
+}
