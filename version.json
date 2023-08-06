@@ -110,20 +110,20 @@
           "name": "MaLiLib",
           "id": "malilib",
           "version": "fabric-1.20.1-0.16.1",
-          "url": "https://www.curseforge.com/api/v1/mods/303119/files/4623483/download"
+          "url": "https://mediafilez.forgecdn.net/files/4623/483/malilib-fabric-1.20.1-0.16.1.jar"
         },
         {
           "name": "MiniHUD",
           "id": "minihud",
           "version": "fabric-1.20.1-0.27.0",
-          "url": "https://www.curseforge.com/api/v1/mods/244260/files/4593082/download",
+          "url": "https://mediafilez.forgecdn.net/files/4593/82/minihud-fabric-1.20.1-0.27.0.jar",
           "depends": ["malilib"]
         },
         {
           "name": "Item Scroller",
           "id": "item-scroller",
           "version": "1.20.1-0.20.0",
-          "url": "https://www.curseforge.com/api/v1/mods/242064/files/4593079/download",
+          "url": "https://mediafilez.forgecdn.net/files/4593/79/itemscroller-fabric-1.20.1-0.20.0.jar",
           "depends": ["malilib"]
         }
       ]
